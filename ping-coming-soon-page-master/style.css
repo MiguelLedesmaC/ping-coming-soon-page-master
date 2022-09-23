@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+
+:root {
+    --Blue: hsl(223, 87%, 63%);
+    --Pale_Blue: hsl(223, 100%, 88%);
+    --Light_Red: hsl(354, 100%, 66%);
+    --Gray: hsl(0, 0%, 59%);
+    --Very_Dark_Blue: hsl(209, 33%, 12%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+
+    font-size: 20px;
+    font-family: 'Libre Franklin', sans-serif;
+}
+.container {
+    margin: 65px auto;
+    width: 375px;
+    text-align: center;
+
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#form-container__logo {
+    margin-bottom: 44px;
+}
+h1 {
+    font-size: 1.4em;
+    font-weight: 300;
+    color: var(--Gray);
+    margin-bottom: 20px;
+}
+#form-container__t--bolder {
+    font-weight: 700;
+    color: var(--Very_Dark_Blue);
+}
+.form-container__description{
+    font-size: .8em;
+    color:var(--Gray);
+    margin-bottom: 30px;
+}
+.btn {   
+    width: 326px;
+    height: 45px;
+    border-radius: 25px;
+    border: none;
+}
+.email {
+    border: 1px solid var(--Pale_Blue);
+    color: var(--Pale_Blue);
+    padding: 10px 35px;
+    margin-bottom: 10px;
+}
+.submit-btn {
+    background-color: var(--Blue);
+    color: white;
+    font-weight: 600;
+    font-size: .8em;
+    margin-bottom: 60px;
+}.submit-btn:hover,
+.fa-brands:hover{
+    cursor: pointer;
+    background-color: var(--Blue);
+    opacity: .8;
+    color: white;
+}
+#error {
+    display: none;
+    color: var(--Light_Red);
+    font-size: .7em;
+    margin: -5px 0 20px 0;
+}
+#img-dashboard{
+    width: 356px;
+    margin-bottom: 100px;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.social-networks {
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    color: var(--Blue);
+}
+.fa-brands {
+    border: 1px solid var(--Pale_Blue);
+    padding: 5%;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-size: .7em;
+    margin-bottom: 45px;
+}.copyright{
+    color: var(--Gray);
+    font-size: .6em;
+}
+.attribution {
+
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
