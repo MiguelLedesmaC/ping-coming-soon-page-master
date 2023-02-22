@@ -15,7 +15,7 @@ Una landing page hecha con Html, css y javascript, que se publicará pronto la c
 
 
 ## Ver ejemplo en vivo
-✔️[Demo](https://miguelledesmac.github.io/ping-coming-soon-page-master/index.html)
+✔️[Demo](https://miguelledesmac.github.io/ping-coming-soon-page-master/ping-coming-soon-page-master/index.html)
 
 ## Instalacion
 Este proyecto no necesita instalacion. simplemente abre la carpeta o haz doble click en la demo
